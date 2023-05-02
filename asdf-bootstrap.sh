@@ -4,17 +4,17 @@ set -o xtrace
 trap ":" ERR 
 
 asdf plugin-add argo
-asdf install argo 3.3.8
-asdf install argo 3.4.4
-asdf global argo 3.4.4
+# asdf install argo 3.3.8
+asdf install argo latest
+asdf global argo latest
 
 asdf plugin-add awscli
-asdf install awscli 2.9.17
+# asdf install awscli 2.9.17
 asdf install awscli latest
 asdf global awscli latest
 
 asdf plugin-add golang
-asdf install golang 1.19.5
+# asdf install golang 1.19.5
 asdf install golang latest
 asdf global golang latest
 
@@ -46,10 +46,12 @@ asdf plugin-add cloudsql-proxy
 asdf install cloudsql-proxy 1.33.2
 # broken(missing-binary): asdf install cloudsql-proxy 2.0.0
 # broken(missing-binary): asdf install cloudsql-proxy latest
-asdf global cloudsql-proxy 1.33.2
+# asdf global cloudsql-proxy 1.33.2
+asdf install cloudsql-proxy latest
+asdf global cloudsql-proxy latest
 
 asdf plugin-add eksctl
-asdf install eksctl 0.126.0
+# asdf install eksctl 0.126.0
 asdf install eksctl latest
 asdf global eksctl latest
 
@@ -103,16 +105,13 @@ asdf install ruby latest
 asdf global ruby latest
 
 asdf plugin-add nodejs
-asdf install nodejs 16.15.1
-asdf install nodejs 16.19.0
-asdf install nodejs 18.9.1
-asdf install nodejs 19.4.0
-asdf install nodejs lts
+asdf install nodejs 16.20.0
+asdf install nodejs 18.16.0
+asdf install nodejs 20.0.0
 asdf install nodejs latest
 asdf global nodejs lts
 
 asdf plugin-add pnpm
-asdf install pnpm 7.25.1
 asdf install pnpm latest
 asdf global pnpm latest
 
@@ -141,6 +140,7 @@ asdf plugin-add skaffold
 asdf install skaffold 2.0.5
 # broken(arm64) asdf install skaffold 2.2.3
 # broken(arm64) asdf install skaffold latest
+asdf install skaffold latest
 asdf global skaffold 2.0.5
 
 asdf plugin-add sops
