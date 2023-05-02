@@ -236,7 +236,7 @@ mas "Disk Space Analyzer Pro", id: 488920185
 mas "EasyRes", id: 688211836
 mas "Fantastical", id: 975937182
 mas "feedly", id: 865500966
-mas "Harvest", id: 506189836
+# mas "Harvest", id: 506189836
 mas "Keynote", id: 409183694
 mas "Microsoft Remote Desktop", id: 715768417
 mas "Mindnode", id: 1289197285
@@ -249,7 +249,7 @@ mas "Post-It", id: 1475777828
 mas "Screenflow 10", id: 1568414480
 mas "Smart JSON Editor", id: 1268962404
 mas "Textual 7", id: 1262957439
-mas "Twitter", id: 1482454543
+# mas "Twitter", id: 1482454543
 mas "Vimeo", id: 1356686763
 mas "Xcode", id: 497799835
 
@@ -258,13 +258,13 @@ mas "Xcode", id: 497799835
 #######################################
 # @divideby0 Personal Apps
 #######################################
-cask "ableton-live-suite"
-cask "native-access" # Native Instruments Installer
-cask "quicken"
-cask "splice"
+# cask "ableton-live-suite"
+# cask "native-access" # Native Instruments Installer
+# cask "quicken"
+# cask "splice"
 cask "spotify"
-cask "quicken"
-cask "native-access" # Native Instruments Installer
-mas "Blackmagic RAW Player", id: 1435415804
-mas "Final Cut Pro X", id: 424389933
-mas "Logic Pro", id: 634148309
+# cask "quicken"
+# cask "native-access" # Native Instruments Installer
+# mas "Blackmagic RAW Player", id: 1435415804
+# mas "Final Cut Pro X", id: 424389933
+# mas "Logic Pro", id: 634148309
